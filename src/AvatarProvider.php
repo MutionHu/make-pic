@@ -18,7 +18,7 @@ class AvatarProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/avatar.php' => config_path('avatar.php'),
+            __DIR__.'/Config/avatar.php' => config_path('avatar.php'),
         ]);
     }
 
