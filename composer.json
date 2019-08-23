@@ -1,0 +1,18 @@
+{
+    "name": "mution/make-pic",
+    "description": "Convert Chinese characters to pictures",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "humingxing",
+            "email": "532889507@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mution\\MakePic\\": "src"
+        }
+    }
+}
